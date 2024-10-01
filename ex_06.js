@@ -1,7 +1,7 @@
 const fruitArray = ["Blackberries", "Mango", "Kiwi", "Peaches", "Apple", "Banana"];
 
 function getIndexFromName (name) {
-	return fruitArray.indexOf(name) === -1 ? 'null : You do not have this fruit' : fruitArray.indexOf(name);
+	return fruitArray.index(name) === -1 ? 'null : You do not have this fruit' : fruitArray.index(name);
 }
 function displayResult(result) {
 	document.write(result);
