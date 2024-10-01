@@ -20,5 +20,5 @@ function getFruit(ind) {
         return "Paramètre invalide";  
     }
 }
-let ind=getFruit(5)
+let ind=getFruit(2)
 displayResult(ind)
